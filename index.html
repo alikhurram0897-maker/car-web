@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <h1>BMW</h1>
+            <img src="images/log.png" alt="back">
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Product</li>
+            <li>Models</li>
+            <li>Contact</li>
+        </ul>
+        <div>
+            <input type="text" placeholder="Search">
+            <i class="fa-duotone fa-solid fa-bars"></i>
+            <i class="fa-regular fa-address-book"></i>
+        </div>
+
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero">
+            <h1>BMW</h1>
+            <p>“BMW — Power, Luxury aur Innovation ka perfect combination.”</p>
+            <button class="ntn">Explore More</button>
+        </div>
+
+    </section>
+
+
+    <section class="card">
+        <div>
+            <img src="images/car1.png" alt="img">
+            <p>BMW is a premium car brand known for its perfect balance of luxury, comfort, and performance.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div>
+            <img src="images/car2.png" alt="img">
+            <p>BMW represents luxury and elegance, delivering a smooth and refined driving experience.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div>
+            <img src="images/car3.png" alt="img">
+            <p>BMW combines powerful engines with modern design to offer an exciting and confident drive.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div>
+            <img src="images/car4.png" alt="img">
+            <p>BMW delivers advanced technology and smart features for a safe and comfortable driving experience.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div>
+            <img src="images/car5.avif" alt="img">
+            <p>BMW is more than just a car—it’s a lifestyle that defines class, innovation, and performance.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div>
+            <img src="images/car6.avif" alt="img">
+            <p>BMW — the perfect combination of power, luxury, and innovation.</p>
+            <button>BUY NOW</button>
+        </div>
+
+
+    </section>
+
+    <section class="hero-next">
+        <div class="hero-div">
+            <p>“BMW — Power, Luxury aur Innovation ka perfect combination.”BMW is more than just a car—it’s a lifestyle
+                that defines class, innovation, and performance.</p>
+            <button class="btn">SHOW ME</button>
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col brand">
+
+                <div class="div">
+                    <h1>BMW</h1>
+                    <img src="images/log.png" alt="">
+                </div>
+
+                <p>
+                    It's a never ending battle of making your cars better and also
+                    trying to be better yourself.
+                </p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-col">
+
+                <h3>Account</h3>
+                <a href="#">Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Billing</a>
+                <a href="#">Notifications</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>About</h3>
+                <a href="#">Services</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+                <a href="#">Careers</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Company</h3>
+                <a href="#">Community</a>
+                <a href="#">Help Center</a>
+                <a href="#">Support</a>
+            </div>
+
+        </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2020 All Rights Reserved by Corly Rent</p>
+            <div class="links">
+                <a href="#">Terms</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    const menuBtn = document.querySelector(".fa-bars");
+    const navMenu = document.querySelector(".nav ul");
+
+    menuBtn.addEventListener("click", () => {
+        if (navMenu.style.display === "flex") {
+            navMenu.style.display = "none";
+        } else {
+            navMenu.style.display = "flex";
+        }
+    });
+</script>
+
+
+</body>
+
+</html>
